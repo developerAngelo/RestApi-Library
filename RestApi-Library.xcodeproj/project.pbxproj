@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FC5ABE8264226A300EB6241 /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5ABE7264226A300EB6241 /* RestManager.swift */; };
+		7FC5ABF1264268DD00EB6241 /* UserDataStucture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5ABF0264268DD00EB6241 /* UserDataStucture.swift */; };
 		7FFEAF0426410484009DD8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFEAF0326410484009DD8DA /* AppDelegate.swift */; };
 		7FFEAF0626410484009DD8DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFEAF0526410484009DD8DA /* SceneDelegate.swift */; };
 		7FFEAF0826410484009DD8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFEAF0726410484009DD8DA /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FC5ABE7264226A300EB6241 /* RestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
+		7FC5ABF0264268DD00EB6241 /* UserDataStucture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataStucture.swift; sourceTree = "<group>"; };
 		7FFEAF0026410484009DD8DA /* RestApi-Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RestApi-Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFEAF0326410484009DD8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FFEAF0526410484009DD8DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FC5ABE62642267400EB6241 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5ABE7264226A300EB6241 /* RestManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7FC5ABEF2642689700EB6241 /* Stuctures */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5ABF0264268DD00EB6241 /* UserDataStucture.swift */,
+			);
+			path = Stuctures;
+			sourceTree = "<group>";
+		};
 		7FFEAEF726410483009DD8DA = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +119,8 @@
 		7FFEAF0226410484009DD8DA /* RestApi-Library */ = {
 			isa = PBXGroup;
 			children = (
+				7FC5ABEF2642689700EB6241 /* Stuctures */,
+				7FC5ABE62642267400EB6241 /* Manager */,
 				7FFEAF0326410484009DD8DA /* AppDelegate.swift */,
 				7FFEAF0526410484009DD8DA /* SceneDelegate.swift */,
 				7FFEAF0726410484009DD8DA /* ViewController.swift */,
@@ -259,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FFEAF0826410484009DD8DA /* ViewController.swift in Sources */,
+				7FC5ABF1264268DD00EB6241 /* UserDataStucture.swift in Sources */,
+				7FC5ABE8264226A300EB6241 /* RestManager.swift in Sources */,
 				7FFEAF0426410484009DD8DA /* AppDelegate.swift in Sources */,
 				7FFEAF0626410484009DD8DA /* SceneDelegate.swift in Sources */,
 			);
