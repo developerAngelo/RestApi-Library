@@ -54,3 +54,25 @@ struct User: Codable, CustomStringConvertible {
         """
     }
 }
+
+struct JobUsers: Codable, CustomStringConvertible {
+    var id: String?
+    var name: String?
+    var job: String?
+    var createdAt: String?
+    
+    var description: String{
+        return """
+
+            id = \(id ?? defString)
+            name = \(name ?? defString)
+            job = \(job ?? defString)
+            createAt = \(createdAt ?? defString)
+
+            """
+    }
+}
+
+struct SingleUserData: Codable{
+    var data: User?
+}
